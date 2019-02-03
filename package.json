@@ -1,0 +1,18 @@
+{
+  "name": "journal-app",
+  "version": "0.0.1",
+  "description": "A diary-journal app to keep personal writings.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . journal-app --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . journal-app --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Journal App\"",    
+    "package-linux": "electron-packager . journal-app --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/icon.png --prune=true --out=release-builds"
+  },
+  "author": "Edvin Boul",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.0.4",
+    "electron-packager": "^13.0.1"
+  }
+}
