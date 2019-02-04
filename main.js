@@ -11,7 +11,7 @@ app.on('ready', function(){
   //create window
   main_window = new BrowserWindow({
     width: 1280,
-    height: 720,
+    height: 1024,
   });
   //load html into the window
   //file://dirname/main_window.html

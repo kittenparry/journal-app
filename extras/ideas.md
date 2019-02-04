@@ -6,3 +6,4 @@
 [ ] Database with SQL?
 [ ] Min width to side panel eg. minmax(100px, auto)
 [ ] Display resolution options?
+[ ] Display edit options on hover to post?

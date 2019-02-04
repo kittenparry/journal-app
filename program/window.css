@@ -10,6 +10,7 @@ body {
   /* background: #F0F0F0; */
   color: #36454F;
   margin: 1%;
+  overflow-x: hidden; /* for footer placement */
 }
 body, html {
   /* height: 99%; */
@@ -20,9 +21,18 @@ body, html {
   grid-gap: 1%;
   /* height: 99%; */
 }
-.grid div {
-  border: 1px #aaa solid;
+.display {
+  border: 3px #aaa solid;
   /* background: #F0F0F0;
   background: #FAF0E6; */
   padding: 1%;
+}
+.footer {
+  position: relative;
+  left: 85%; /* hidden overflow-x */
+  font-size: 14px;
+}
+.edit {
+  position: relative;
+  left: 90%;
 }
