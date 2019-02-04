@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  line-height: 1.4;
+  background: #FAF0E6;
+  /* background: #F0F0F0; */
+  color: #36454F;
+  margin: 1%;
+}
+body, html {
+  /* height: 99%; */
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 1%;
+  /* height: 99%; */
+}
+.grid div {
+  border: 1px #aaa solid;
+  /* background: #F0F0F0;
+  background: #FAF0E6; */
+  padding: 1%;
+}
